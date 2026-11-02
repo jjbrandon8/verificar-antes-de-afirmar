@@ -1,0 +1,12 @@
+{
+  "name": "verificar-antes-de-afirmar",
+  "version": "1.0.0",
+  "description": "Stops Claude from stating unverified facts: answers only from the sources you give it, or from primary sources it cites next to each fact. Spanish and English.",
+  "author": {
+    "name": "jjbrandon8",
+    "url": "https://github.com/jjbrandon8"
+  },
+  "repository": "https://github.com/jjbrandon8/verificar-antes-de-afirmar",
+  "license": "MIT",
+  "keywords": ["fact-checking", "citations", "sources", "hallucinations", "verificacion", "fuentes"]
+}

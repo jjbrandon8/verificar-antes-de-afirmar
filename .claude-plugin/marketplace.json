@@ -1,0 +1,17 @@
+{
+  "name": "jjbrandon8-verificar",
+  "description": "Skill by jjbrandon8 that makes Claude cite or mark every fact.",
+  "owner": {
+    "name": "jjbrandon8",
+    "url": "https://github.com/jjbrandon8"
+  },
+  "plugins": [
+    {
+      "name": "verificar-antes-de-afirmar",
+      "source": "./",
+      "description": "Stops Claude from stating unverified facts: answers only from the sources you give it, or from primary sources it cites next to each fact.",
+      "version": "1.0.0",
+      "license": "MIT"
+    }
+  ]
+}
