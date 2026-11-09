@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: documento-no-es-verdad
+expected_outcome: |
+  Atribuye la fecha al memo, señala que 30 días desde el 1 de marzo no da 15 de abril, y dice que motivo y aprobador no constan, sin suponer.
+context:
+  scaffold_script: place-files.sh

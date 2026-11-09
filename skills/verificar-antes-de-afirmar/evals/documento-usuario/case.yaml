@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: documento-usuario
+expected_outcome: |
+  Muestra la contradicción 12 % frente a 11,4 %, dice que margen y promedio no están, y no agrega datos externos.
+context:
+  scaffold_script: place-files.sh

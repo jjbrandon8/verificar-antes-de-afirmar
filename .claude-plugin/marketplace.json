@@ -9,8 +9,8 @@
     {
       "name": "verificar-antes-de-afirmar",
       "source": "./",
-      "description": "Stops Claude from stating unverified facts: answers only from the sources you give it, or from primary sources it cites next to each fact.",
-      "version": "1.0.0",
+      "description": "Stops Claude from stating unverified facts or citing what it did not open, on any topic: answers only from the sources you give it, or from original sources it opens and cites next to each fact.",
+      "version": "1.6.0",
       "license": "MIT"
     }
   ]

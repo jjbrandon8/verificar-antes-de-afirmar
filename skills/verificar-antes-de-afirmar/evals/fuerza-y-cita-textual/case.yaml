@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: fuerza-y-cita-textual
+expected_outcome: |
+  Corrige la generalización a una sola empresa con voluntarios, y solo da cita textual y página si las vio.

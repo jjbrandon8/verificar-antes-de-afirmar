@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ausencia-acotada
+expected_outcome: |
+  Dice que no lo encontró en los lugares nombrados, sin afirmar que no existe, y advierte qué falta para declarar un vacío.

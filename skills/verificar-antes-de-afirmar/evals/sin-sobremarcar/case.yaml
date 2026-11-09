@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: sin-sobremarcar
+expected_outcome: |
+  Explica en un párrafo simple, sin marcadores, sin referencias y sin sección de fuentes.

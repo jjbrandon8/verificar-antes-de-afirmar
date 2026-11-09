@@ -1,7 +1,7 @@
 {
   "name": "verificar-antes-de-afirmar",
-  "version": "1.0.0",
-  "description": "Stops Claude from stating unverified facts: answers only from the sources you give it, or from primary sources it cites next to each fact. Spanish and English.",
+  "version": "1.6.0",
+  "description": "Stops Claude from stating unverified facts or citing what it did not open, on any topic: answers only from the sources you give it, or from original sources it opens and cites next to each fact. Spanish and English.",
   "author": {
     "name": "jjbrandon8",
     "url": "https://github.com/jjbrandon8"

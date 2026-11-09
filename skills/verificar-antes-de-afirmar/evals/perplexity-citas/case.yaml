@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: perplexity-citas
+expected_outcome: |
+  Avisa que la primera fue retractada y que la segunda no se pudo confirmar; no acepta Perplexity como confirmación.

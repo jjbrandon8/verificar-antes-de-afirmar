@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: tesis-referencias
+expected_outcome: |
+  Entrega referencias que existen, abiertas en su fuente original, con DOI, nivel de lectura declarado y estado de la publicación.
