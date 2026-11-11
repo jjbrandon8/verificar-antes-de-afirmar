@@ -1,4 +1,4 @@
-"""Reviewer for the verificar-antes-de-afirmar plugin.
+"""Reviewer for the verum plugin (verificar antes de afirmar).
 
 Two entry points, both called from hooks.json:
 

@@ -1,5 +1,5 @@
 ---
-name: verificar-antes-de-afirmar
+name: verum
 description: Use whenever a response will state facts anyone may rely on or pass on, on any topic (figures, statistics, dates, laws, prices, versions, quotes, studies, references, URLs), especially inside longer deliverables (theses, literature reviews, proposals, reports, emails, posts, plans) where facts get added as supporting color. Also use when the user gives documents, links or folders to answer from, asks for references, a bibliography or a textual quote, asks whether something exists or has been studied, brings an answer or citation from any AI, search engine or database (such as Perplexity, ChatGPT, Google Scholar or Scopus), when you have no search tools but are asked for facts or references, and when reporting your own work as done, fixed, verified or passing.
 ---
 

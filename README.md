@@ -1,4 +1,8 @@
-# verificar-antes-de-afirmar
+# verum
+
+*Verificar antes de afirmar · Verify before asserting.*
+
+Skill: `/verum:verum`. Hasta la versión 1.8.0 se llamaba `verificar-antes-de-afirmar` · Until version 1.8.0 it was named `verificar-antes-de-afirmar`.
 
 A Claude plugin so that every fact in an answer shows where it came from, and Claude does not misstate how it found it.
 
@@ -35,13 +39,13 @@ La comparación entre versiones, con sus resultados y límites, está en [EVALS.
 
 ### Instalar
 
-**claude.ai, cowork y Claude Code a la vez:** en [Customize > Plugins](https://claude.ai/customize/plugins), elige **Add > Add marketplace**, escribe `jjbrandon8/verificar-antes-de-afirmar` e instala `verificar-antes-de-afirmar`. Activa **Sync automatically** para recibir las versiones nuevas. Si antes subiste la skill como `.zip` en Customize > Skills, bórrala, para no tener dos copias.
+**claude.ai, cowork y Claude Code a la vez:** en [Customize > Plugins](https://claude.ai/customize/plugins), elige **Add > Add marketplace**, escribe `jjbrandon8/verificar-antes-de-afirmar` e instala `verum`. Activa **Sync automatically** para recibir las versiones nuevas. Si antes subiste la skill como `.zip` en Customize > Skills, bórrala, para no tener dos copias.
 
 **Solo Claude Code:**
 
 ```
 /plugin marketplace add jjbrandon8/verificar-antes-de-afirmar
-/plugin install verificar-antes-de-afirmar@jjbrandon8-verificar
+/plugin install verum@jjbrandon8-verificar
 ```
 
 Una skill se carga cuando Claude decide que aplica (en las pruebas se cargó sola en todas las sesiones). Para reforzarlo, agrega esto a tu `~/.claude/CLAUDE.md` y a tus instrucciones personales de claude.ai:
@@ -49,7 +53,7 @@ Una skill se carga cuando Claude decide que aplica (en las pruebas se cargó sol
 ```markdown
 ## No inventar
 
-Antes de afirmar un dato, cifra, fecha, ley, artículo, cita, enlace, versión o resultado, usa la skill `verificar-antes-de-afirmar`:
+Antes de afirmar un dato, cifra, fecha, ley, artículo, cita, enlace, versión o resultado, usa la skill `verum`:
 - Si el usuario dio fuentes, responde solo con ellas y cita el lugar exacto. Si no está ahí, dilo.
 - Si no dio fuentes, busca en todo lo que sirva (Google Académico, Perplexity, bases de datos u otros) y abre el documento original antes de citarlo.
 - Lo que no puedas verificar se marca `[verificar]` o se deja fuera. La memoria no es una fuente.
@@ -84,13 +88,13 @@ The comparison between versions is in [EVALS.md](EVALS.md).
 
 ### Install
 
-**claude.ai, Cowork and Claude Code at once:** in [Customize > Plugins](https://claude.ai/customize/plugins), choose **Add > Add marketplace**, enter `jjbrandon8/verificar-antes-de-afirmar` and install `verificar-antes-de-afirmar`. Turn on **Sync automatically** to get new versions. If you uploaded the skill as a `.zip` in Customize > Skills before, delete it so you do not have two copies.
+**claude.ai, Cowork and Claude Code at once:** in [Customize > Plugins](https://claude.ai/customize/plugins), choose **Add > Add marketplace**, enter `jjbrandon8/verificar-antes-de-afirmar` and install `verum`. Turn on **Sync automatically** to get new versions. If you uploaded the skill as a `.zip` in Customize > Skills before, delete it so you do not have two copies.
 
 **Claude Code only:**
 
 ```
 /plugin marketplace add jjbrandon8/verificar-antes-de-afirmar
-/plugin install verificar-antes-de-afirmar@jjbrandon8-verificar
+/plugin install verum@jjbrandon8-verificar
 ```
 
 A skill loads when Claude decides it applies (in testing it loaded on its own in every session). To reinforce it, add the rule block shown in the Spanish section to your `~/.claude/CLAUDE.md` and your claude.ai personal instructions.

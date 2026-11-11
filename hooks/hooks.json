@@ -1,5 +1,5 @@
 {
-  "description": "verificar-antes-de-afirmar: bitácora automática de herramientas y revisión del borrador contra esa bitácora",
+  "description": "verum: bitácora automática de herramientas y revisión del borrador contra esa bitácora",
   "hooks": {
     "PostToolBatch": [
       {

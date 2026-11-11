@@ -1,6 +1,6 @@
 # Evaluation
 
-Dates: 2026-11-08 and 2026-11-09. Test cases are in `skills/verificar-antes-de-afirmar/evals/`. Unless a section says otherwise, each version ran once per case.
+Dates: 2026-11-08 and 2026-11-09. Test cases are in `skills/verum/evals/`. Unless a section says otherwise, each version ran once per case.
 
 ## Fixes after the full-plugin test (2026-11-09)
 

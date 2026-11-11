@@ -1,4 +1,4 @@
-"""Automatic working log for the verificar-antes-de-afirmar plugin.
+"""Automatic working log for the verum plugin (verificar antes de afirmar).
 
 Claude Code calls this script after every batch of tool calls (PostToolBatch)
 and after every failed tool call (PostToolUseFailure). It appends one line per
@@ -123,7 +123,7 @@ def main():
     agente = data.get("agent_type") or ""
     lines = []
     if new_file:
-        lines.append("# Bitácora automática (verificar-antes-de-afirmar)\n")
+        lines.append("# Bitácora automática (verum)\n")
         lines.append("La escribe un hook después de cada lote de herramientas. Las llamadas del mismo lote salieron juntas: ninguna respondió a otra.\n")
         lines.append("| paso | lote | hora | herramienta | entrada | resultado |")
         lines.append("|---|---|---|---|---|---|")
