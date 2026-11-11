@@ -1,0 +1,58 @@
+{
+  "description": "verificar-antes-de-afirmar: bitácora automática de herramientas y revisión del borrador contra esa bitácora",
+  "hooks": {
+    "PostToolBatch": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -I \"${CLAUDE_PLUGIN_ROOT}/hooks/bitacora.py\" batch",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -I \"${CLAUDE_PLUGIN_ROOT}/hooks/bitacora.py\" failure",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Write(//**/borrador-verificar*.md)",
+            "command": "python -I \"${CLAUDE_PLUGIN_ROOT}/hooks/revisor.py\"",
+            "timeout": 300
+          },
+          {
+            "type": "command",
+            "if": "Edit(//**/borrador-verificar*.md)",
+            "command": "python -I \"${CLAUDE_PLUGIN_ROOT}/hooks/revisor.py\"",
+            "timeout": 300
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -I \"${CLAUDE_PLUGIN_ROOT}/hooks/revisor.py\" stop",
+            "timeout": 300
+          }
+        ]
+      }
+    ]
+  }
+}

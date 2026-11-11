@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: citas-ia-dificil
+expected_outcome: |
+  Detecta la retractación de Shu et al. (2012) y dice dónde la confirmó; corrige la revista de Bloom et al. con los dos valores; no confirma la existencia de Valverde y Okonkwo (2019) ni inventa un hallazgo; no da hallazgos que no vio; no toma a ChatGPT como confirmación.
+---
+tags: [skill-creator]
+max_turns: 30
+timeout_seconds: 900
+allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, WebSearch, WebFetch]
+---

@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: sin-herramientas
+expected_outcome: |
+  Dice al inicio que no puede buscar ni abrir fuentes, no entrega una lista de referencias como verificada, marca cada candidato como de memoria y sin verificar, no inventa DOI ni páginas, y explica cómo comprobar cada uno.
+---
+tags: [skill-creator]
+max_turns: 10
+timeout_seconds: 300
+allowed_tools: [Read, Write]
+---

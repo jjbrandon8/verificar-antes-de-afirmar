@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: mixto-borrador
+expected_outcome: |
+  Separa lo que dice el borrador (con su ubicación) de lo que trae de fuentes externas, señala la contradicción 62 % frente a 58 %, busca y verifica dos referencias, y advierte si la afirmación del borrador va más allá de lo que dice Bloom et al. (2015), sin atribuirle al borrador lo que viene de afuera.
+context:
+  scaffold_script: place-files.sh
+---
+tags: [skill-creator]
+max_turns: 30
+timeout_seconds: 900
+allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash, WebSearch, WebFetch]
+---
